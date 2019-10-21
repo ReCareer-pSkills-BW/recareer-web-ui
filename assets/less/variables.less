@@ -1,23 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo|Montserrat|Slabo+13px');
-@slabo: 'Slabo 13px', serif;
-@heebo: 'Heebo', sans-serif;
-@montserrat: 'Montserrat', sans-serif;
-@family-serif : @slabo;
+
+//property primatives
+@slabo : 'Slabo 13px',
+serif;
+@heebo : 'Heebo',
+sans-serif;
+@montserrat : 'Montserrat',
+sans-serif;
+@family-serif     : @slabo;
 @family-sans-serif: @heebo;
-@family-primary : @montserrat;
-@dark-cerulian : #083d77;
-@blue-yonder : #586ba4;
-@isabelline : #f2f5ea;
-@metallic-seaweed: #077187;
-@eton-blue : #9ece9a;
-@primary: @dark-cerulian;
-@link: @blue-yonder;
-@info: @metallic-seaweed;
-@success: @eton-blue;
-@background: @isabelline;
+@family-primary   : @montserrat;
+@dark-cerulean    : #083d77;
+@blue-yonder      : #586ba4;
+@isabelline       : #f2f5ea;
+@metallic-seaweed : #077187;
+@eton-blue        : #9ece9a;
+@primary          : black;
+@link             : @blue-yonder;
+@info             : @metallic-seaweed;
+@success          : @eton-blue;
+@background       : @dark-cerulean;
+
+//property derivatives 
+@txt-color: black;
 
 @breakpoints() {
-    @phone: ~"(min-width: 768px)";
-    @tablet: ~"()"; 
+    @phone  : ~"(min-width: 500px)";
+    @tablet : ~"()";
     @desktop: ~"()";
 }
