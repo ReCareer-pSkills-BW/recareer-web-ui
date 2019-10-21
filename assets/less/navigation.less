@@ -1,15 +1,19 @@
 .nav {
+	position: fixed;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
-	align-items: flex-end;
+	align-items: flex-start;
 	padding: 2em 3em;
-	background-color: $nav-clr;
-	color: $txt-clr;
+	background-color: @primary;
+	color: @txt-clr;
 
 	a {
 		text-align: center;
 		padding: inherit;
-	}
+		font-size: 4rem;
+		outline: none;
+			}
 
 	&:hover {
 		transition: ease 0.8s;
