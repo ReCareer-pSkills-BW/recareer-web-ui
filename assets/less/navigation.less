@@ -1,5 +1,18 @@
-nav { 
-    display: flex; 
-    padding: 2em; 
-    
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	padding: 2em 3em;
+	background-color: $nav-clr;
+	color: $txt-clr;
+
+	a {
+		text-align: center;
+		padding: inherit;
+	}
+
+	&:hover {
+		transition: ease 0.8s;
+		box-shawdow: 0.3em 0.78em black;
+	}
 }
