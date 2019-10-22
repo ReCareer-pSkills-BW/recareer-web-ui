@@ -1,21 +1,32 @@
 .footer {
-	background: @link;
-	display: flex;
-	padding: 8em;
-	height: 1000px;
+    background: @link;
+    display: flex;
+    flex-direction: column;
+    padding: 8em;
+    height: 1000px;
 	width: 100%;
+	
 
-	input[type=text] {
-		width: 100%;
-		padding: 12px 20px;
-		margin: 8px 0;
-		box-sizing: border-box;
-		border: none;
-		border-bottom: 2px solid black;
-	  }
+#copyright {
+	text-align: center;
+	padding: inherit;
+}
+    form {
 
+		label {
+			font-size: 2rem;
+			padding:1.5em;
+		}
 
-	@media (min-width: 500px) {
-		height: 100%;
-	}
+        input[type=text] {
+            background: @link;
+            outline: none;
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+    }
 }

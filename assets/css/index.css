@@ -18,6 +18,16 @@
 }
 /* Variable Primatives */
 /* Variable Assignments */
+.buttonize {
+  background-color: inherit
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -200,7 +210,24 @@ img {
   background-color: #083d77;
   color: #f2f5ea;
 }
+.nav .button {
+  background-color: inherit
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
 .nav a {
+  background-color: inherit
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
   text-align: center;
   padding: inherit;
   font-size: 4rem;
@@ -213,12 +240,26 @@ img {
 .footer {
   background: #586ba4;
   display: flex;
+  flex-direction: column;
   padding: 8em;
   height: 1000px;
   width: 100%;
 }
-@media (min-width: 500px) {
-  .footer {
-    height: 100%;
-  }
+.footer #copyright {
+  text-align: center;
+  padding: inherit;
+}
+.footer form label {
+  font-size: 2rem;
+  padding: 1.5em;
+}
+.footer form input[type=text] {
+  background: #586ba4;
+  outline: none;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
 }
