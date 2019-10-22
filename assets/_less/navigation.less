@@ -1,27 +1,32 @@
 .nav {
-	width: 100%;
-	display: flex;
-	align-items: flex-start;
-	padding: 2em 3em;
-	background-color: @primary;
-	color: @text-color;
+    position: fixed;
+    font-family: @family-primary;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    background-color: @primary;
+    color: @text-color;
+    box-shadow: 5px 5px 5px #1d1c1c;
 
-	.button {
-		.buttonize();
-	}
-	
-	a {
-		.buttonize();
-		text-align: center;
-		padding: inherit;
-		font-size: 4rem;
+    a {
+        .buttonize();
+        transition: ease 0.3s;
+        text-align: center;
+        padding: inherit;
+        font-size: 4rem;
 		outline: none;
-			}
+		padding: 1em;
 
-		
-			
-	&:hover {
-		transition: ease 0.8s;
-		box-shadow: 0.3em 0.78em black;
-	}
+        &:hover {
+
+			.heartbeat();
+        }
+    }
+
+
+
+    &:hover {
+        transition: ease 0.8s;
+        box-shadow: 0.3em 0.78em black;
+    }
 }

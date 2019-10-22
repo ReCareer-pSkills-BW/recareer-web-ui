@@ -1,5 +1,12 @@
+<p align="center"><img height="175px" width="175px" src="assets/imgs/icons/icon.png"/></p>
 <h1 align="center">ReCareer ↪ | Web UI</h1>
 
+# Project Topic 
+> regarding the company/sites mission, contributors profiles, and everything related to ReCareer
+
+## Pages 
+## ```about.html``
+> screenshot
 
 # Intro / Shields / Logo 
 > header info for readme
@@ -20,8 +27,9 @@ Student passes the tests for following additional functions:
 ```getLargestCargoStarshipModelName```
 ```getSlowestVehicleOrStarshipName```
 
-# Project Topic 
-> regarding the company/sites mission, contributors profiles, and everything related to ReCareer
 
 ## Resources 
 > [Responsive Design - Breakpoint Pointers 😁]("https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/")
+<br>
+
+> [Animation Keyframe - Animista]("https://animista.com")
