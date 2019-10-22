@@ -22,7 +22,7 @@
 @txt-color: black;
 
 @breakpoints () {
-	@phone : ~"(min-width: 500px) ";
-	@tablet : ~"() ";
-	@desktop: ~"() ";
+	@phone : ~"@media (max-width: 500px)";
+	@tablet : ~"@media (max-width: 768px)";
+	@desktop: ~"@media (min-width:  1000px) ";
 }
