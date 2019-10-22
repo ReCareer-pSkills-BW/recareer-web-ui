@@ -20,17 +20,16 @@
 /* Variable Assignments */
 .buttonize {
   background-color: inherit;
-  border: 1px black;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
+  border: 3px #586ba4;
+  color: inherit;
+  padding: inherit;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: inherit;
 }
 .heartbeat {
-  -webkit-animation: heartbeat 2.3s ease-in-out infinite alternate-reverse both;
-  animation: heartbeat 2.3s ease-in-out infinite alternate-reverse both;
+  -webkit-animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
+  animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -280,33 +279,45 @@ img {
   }
 }
 .nav {
+  transition: ease 0.8s;
   position: fixed;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   background-color: #083d77;
   color: #f2f5ea;
   box-shadow: 5px 5px 5px #1d1c1c;
 }
-.nav a {
+.nav .button {
   background-color: inherit;
-  border: 1px black;
-  color: white;
-  padding: 15px 32px;
+  border: 3px #586ba4;
+  color: inherit;
+  padding: inherit;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: inherit;
+}
+@phone {
+  flex-direction: column;
+}
+.nav a {
+  background-color: inherit;
+  border: 3px #586ba4;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: inherit;
   transition: ease 0.3s;
   text-align: center;
   padding: inherit;
-  font-size: 4rem;
+  font-size: 2rem;
   outline: none;
   padding: 1em;
 }
 .nav a:hover {
-  -webkit-animation: heartbeat 2.3s ease-in-out infinite alternate-reverse both;
-  animation: heartbeat 2.3s ease-in-out infinite alternate-reverse both;
+  -webkit-animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
+  animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
 }
 .nav:hover {
   transition: ease 0.8s;
@@ -337,4 +348,8 @@ img {
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid black;
+}
+.section {
+  display: flex;
+  padding: 5em;
 }

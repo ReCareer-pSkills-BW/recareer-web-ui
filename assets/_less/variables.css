@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Heebo'), local('Heebo-Regular'), url(https://fonts.gstatic.com/s/heebo/v5/NGS6v5_NC0k9P9H2TbQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Slabo 13px';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Slabo 13px'), local('Slabo13px-Regular'), url(https://fonts.gstatic.com/s/slabo13px/v7/11hEGp_azEvXZUdSBzzRQKCh3w.ttf) format('truetype');
+}
+/* Variable Primatives */
+/* Variable Assignments */

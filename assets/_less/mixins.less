@@ -1,15 +1,19 @@
 .buttonize {
     background-color: inherit;
-    border: 1px black;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+    border: 3px @link;
+    color: inherit;
+    padding: inherit;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: inherit;
 }
 
 .heartbeat {
-    -webkit-animation: heartbeat 2.3s ease-in-out infinite alternate-reverse both;
-	        animation: heartbeat 2.3s ease-in-out infinite alternate-reverse both;
+    -webkit-animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
+	        animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
+}
+
+.shadowize {
+    -webkit-animation: shadow-drop-center 1.5s ease-in-out 4 both;
+	        animation: shadow-drop-center 1.5s ease-in-out 4 both;
 }

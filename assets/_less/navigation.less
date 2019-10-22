@@ -1,19 +1,28 @@
 .nav {
+    transition: ease 0.8s;
     position: fixed;
     font-family: @family-primary;
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
     background-color: @primary;
     color: @text-color;
     box-shadow: 5px 5px 5px #1d1c1c;
+
+    .button {
+        .buttonize();
+        .shadowize();
+    }
+    @phone {
+        flex-direction: column;
+    }
 
     a {
         .buttonize();
         transition: ease 0.3s;
         text-align: center;
         padding: inherit;
-        font-size: 4rem;
+        font-size: 2rem;
 		outline: none;
 		padding: 1em;
 
@@ -22,8 +31,6 @@
 			.heartbeat();
         }
     }
-
-
 
     &:hover {
         transition: ease 0.8s;

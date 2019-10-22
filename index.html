@@ -21,37 +21,72 @@
 </head>
 
 <body>
-
     <header class="banner">
         <nav class="nav">
             <a href="/index.html">
-                <img src="assets/imgs/icons/icon.png" alt="logo" class="logo"/>
+                <img src="assets/imgs/icons/icon.png" alt="logo" class="logo" />
             </a>
             <a href="#features">App Features</a>
             <a href="#skills">Feature Skills</a>
             <a href="/_pages/about.html">About Our Team</a>
             <a href="#contact">Contact</a>
             <a href="">
-                <button>Login</button>
+                <button class="button">Login</button>
+            </a>
+            <a href="" class="icon" onclick="burger()">
+                <i>🍔</i>
             </a>
         </nav>
     </header>
 
     <main>
         <section>
-
+            <img src="#" />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
+            blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
+            distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
+            vel quia ipsum mollitia? Laboriosam quos officia harum, unde voluptatum earum modi, atque aperiam hic omnis
+            eum!
         </section>
 
         <section>
-
+            <img src="#" />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
+            blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
+            distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
+            vel quia ipsum mollitia? Laboriosam quos officia harum, unde voluptatum earum modi, atque aperiam hic omnis
+            eum!
         </section>
 
         <section>
-
+            <img src="#" />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
+            blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
+            distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
+            vel quia ipsum mollitia? Laboriosam quos officia harum, unde voluptatum earum modi, atque aperiam hic omnis
+            eum!
         </section>
 
-        <section>
+        <section class="our_team">
 
+            <div class="team">
+
+            </div>
+            <div class="team">
+
+            </div>
+            <div class="team">
+
+            </div>
+            <div class="team">
+
+            </div>
+            <div class="team">
+
+            </div>
+            <div class="team">
+
+            </div>
         </section>
 
     </main>
@@ -75,7 +110,26 @@
             </form>
         </section>
 
-        <p id="copyright">ReCareer ©, 1776 - 2019</p>
+        <section>
+            <p id="copyright">ReCareer ©, 1776 - 2019</p>
+            <ul class="social">
+                <li>Instragram</li>
+                <li>Github</li>
+                <li>Facebook</li>
+            </ul>
+
+        </section>
+
+        <script>
+
+            function burger() {
+                var x = document.getElementById("nav");
+                if (x.className === "nav") {
+                    x.className += " burgered";
+                } else {
+                    x.className = "nav";
+                }
+            }</script>
     </footer>
 </body>
 
