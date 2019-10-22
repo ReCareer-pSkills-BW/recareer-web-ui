@@ -2,7 +2,6 @@
 	position: fixed;
 	width: 100%;
 	display: flex;
-	flex-direction: row;
 	align-items: flex-start;
 	padding: 2em 3em;
 	background-color: @primary;
@@ -15,6 +14,10 @@
 		outline: none;
 			}
 
+			@breakpoints[phone] 
+			{
+				flex-direction: column;
+			}
 	&:hover {
 		transition: ease 0.8s;
 		box-shadow: 0.3em 0.78em black;
