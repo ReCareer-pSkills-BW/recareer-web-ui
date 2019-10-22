@@ -16,6 +16,8 @@
   font-weight: 400;
   src: local('Slabo 13px'), local('Slabo13px-Regular'), url(https://fonts.gstatic.com/s/slabo13px/v7/11hEGp_azEvXZUdSBzzRQKCh3w.ttf) format('truetype');
 }
+/* Variable Primatives */
+/* Variable Assignments */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -186,14 +188,17 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.logo {
+  height: 25px;
+  width: 25px;
+}
 .nav {
-  position: fixed;
   width: 100%;
   display: flex;
   align-items: flex-start;
   padding: 2em 3em;
-  background-color: black;
-  color: white;
+  background-color: #083d77;
+  color: #f2f5ea;
 }
 .nav a {
   text-align: center;
@@ -206,18 +211,14 @@ img {
   box-shadow: 0.3em 0.78em black;
 }
 .footer {
-  background: var(--primary-color);
+  background: #586ba4;
   display: flex;
-  padding: 7em;
-  height: 1vh;
+  padding: 8em;
+  height: 1000px;
   width: 100%;
 }
-.footer .contact_us {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+@media (min-width: 500px) {
+  .footer {
+    height: 100%;
+  }
 }

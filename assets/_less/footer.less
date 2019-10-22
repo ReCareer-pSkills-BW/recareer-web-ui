@@ -1,17 +1,21 @@
 .footer {
-	background: var(--primary-color);
+	background: @link;
 	display: flex;
-	padding: 7em;
-	height: 1vh;
-    width: 100%;
-    
-	.contact_us {
+	padding: 8em;
+	height: 1000px;
+	width: 100%;
+
+	input[type=text] {
 		width: 100%;
 		padding: 12px 20px;
 		margin: 8px 0;
-		display: inline-block;
-		border: 1px solid #ccc;
-		border-radius: 4px;
 		box-sizing: border-box;
+		border: none;
+		border-bottom: 2px solid black;
+	  }
+
+
+	@media (min-width: 500px) {
+		height: 100%;
 	}
 }
