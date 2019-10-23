@@ -38,7 +38,7 @@
             <a href="" class="icon" onclick="nav_burger()">
                 <i class="fa fa-bars"></i>
             </a>
-        </nav> 
+        </nav>
 
         <h1 class="title">ReCareer ©</h1>
         <button id="action">Lights, Camera, Action</button>
@@ -58,7 +58,7 @@
         </section>
 
         <section class="stack">
-            <img src="#" />
+            <img src="/assets/imgs/handshake.jpeg" />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
             blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
             distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
@@ -67,7 +67,7 @@
         </section>
 
         <section class="stack">
-            <img src="#" />
+            <img src="/assets/imgs/teamwork.jpg" />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
             blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
             distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
@@ -108,6 +108,13 @@
         <hr>
         <p>This site was built with LESS, GithubPages, & tears 😢</p>
     </footer>
+    <script>
+        if (!navigator.serviceWorker.controller) {
+            navigator.serviceWorker.register("/sw.js").then(function (reg) {
+                console.log("Service worker has been registered for scope: " + reg.scope);
+            });
+        }
+    </script>
 </body>
 
 </html>

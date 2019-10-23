@@ -5103,11 +5103,11 @@ since IE8 won't execute CSS that contains a CSS3 selector.
   }
 }
 .nav {
+  display: flex;
   flex-direction: row;
   transition: ease 0.8s;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
-  display: flex;
   align-items: baseline;
   background-color: #083d77;
   color: #f2f5ea;
