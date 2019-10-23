@@ -1,6 +1,16 @@
 <p align="center"><img height="175px" width="175px" src="assets/imgs/icons/icon.png"/></p>
 <h1 align="center">ReCareer ↪ | Web UI</h1>
+<img align="right" src="https://img.shields.io/badge/Made%20with-Tears%20%F0%9F%98%AD%20-blue?style=for-the-badge&logo=appveyor">
+<img align="left" src="https://img.shields.io/badge/Developed%20by-jffrydsr%20👩🏿‍💻-red?style=for-the-badge&logo=appveyor">
+<img src="https://img.shields.io/badge/Developed%20by-ryankayne%20%F0%9F%91%A8%F0%9F%8F%BF%E2%80%8D%F0%9F%92%BB-red?style=for-the-badge&logo=appveyor">
 
+
+## Who are we❓
+> 
+
+ Build Statis
+
+ # Screensshots
 # Project Topic 
 > regarding the company/sites mission, contributors profiles, and everything related to ReCareer
 
@@ -27,9 +37,14 @@ Student passes the tests for following additional functions:
 ```getLargestCargoStarshipModelName```
 ```getSlowestVehicleOrStarshipName```
 
+## Carefully Crafted w/ 
 
-## Resources 
-> [Responsive Design - Breakpoint Pointers 😁]("https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/")
+
+## Technologies Used 
+*  [Responsive Design - Breakpoint Pointers 😁]("https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/")
 <br>
 
-> [Animation Keyframe - Animista]("https://animista.com")
+* [Animation Keyframe - Animista]("https://animista.com")
+
+* [LESS - Preprocessor]("https://less.com")
+* [FontAwesome - Icon Pack]("")
