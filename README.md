@@ -61,7 +61,8 @@ Student's code is easy to read, they have used different less files for differen
 Student passes the tests for following additional functions:
 ## Versioning 
 > in the style of Google's semantic _and tasty 🤤_ Android OS © versioning. 
-```[name_of_celebrit] [random_concrete_noun] [major_change_number]
+
+```[name_of_celebrit] [random_concrete_noun] [major_change_number]```
 * Current Build: Kanye Bubbles 9
 * See [changelog]("#changelog")
 
@@ -81,6 +82,7 @@ _ A.K.A. The Grim REPL_
 
 ## Acknowledments
 * @TEAM
+* Ana Travas [@anatravas]("https://twitter.com")
 
 ## Licensing 
 This project is under the MIT License ☔<br>
