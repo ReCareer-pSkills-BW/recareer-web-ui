@@ -25,8 +25,8 @@
 <body>
     <header class="banner">
         <nav class="nav" id="nav">
-            <a href="/index.html">
-                <img src="assets/imgs/icons/icon.png" alt="logo" class="logo" />
+            <a href="/index.html" class="logo">
+                <img src="assets/imgs/icons/icon.png" alt="logo"/>
             </a>
             <a href="#features">App Features</a>
             <a href="#skills">Feature Skills</a>
@@ -35,16 +35,19 @@
             <a href="">
                 <button class="button">Login</button>
             </a>
-            <a href="" class="icon" onclick="nav_burger()">
+            <a href="" id="burger" class="icon" onclick="nav_burger()">
                 <i class="fa fa-bars"></i>
             </a>
         </nav>
 
-        <h1 class="title">ReCareer ©</h1>
-        <button id="action">Lights, Camera, Action</button>
+        <div class="front">
+                <button id="action">Lights, Camera, Action</button>
+                <h1 class="title">ReCareer ©</h1>
+                <img id="banner_logo" src="/assets/imgs/ReCareer_hero.png" />
+                <h2 class="subtitle">another job board site for seconds chances 🙏🏿</h2>
 
-        <img id="banner_logo" src="/assets/imgs/ReCareer_hero.png" />
-        <h2 class="subtitle">another job board site for seconds chances 🙏🏿</h2>
+        </div>
+      
     </header>
 
     <main class="main">
@@ -77,6 +80,9 @@
     </main>
 
     <footer class="footer">
+        <section>
+            
+        </section>
 
         <section id="contact" class="contact">
             <h1>Share us your thoughts 😀</h1>

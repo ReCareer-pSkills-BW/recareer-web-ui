@@ -18,7 +18,7 @@
 }
 /* Variable Primatives */
 /* Variable Assignments */
-/* stylyings */
+/* position mixins */
 .buttonize {
   background-color: inherit;
   border: 3px #586ba4;
@@ -28,7 +28,7 @@
   display: inline-block;
   font-size: inherit;
 }
-/* Animista Animation Mixins*/
+/* Animista Parametric Mixins*/
 /*!
  * Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -4539,40 +4539,39 @@ table {
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  font-size: 12px;
   scroll-behavior: smooth;
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: #083d77;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Indie Flower', cursive;
-}
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 h2 {
-  font-size: 3.2rem;
-  padding-bottom: 10px;
+  font-size: 4rem;
 }
 h4 {
   font-size: 2.5rem;
-  padding-bottom: 10px;
 }
 p {
-  line-height: 1.5;
+  line-height: 2.5;
   font-size: 1.6rem;
-  padding-bottom: 10px;
 }
 img {
   max-width: 100%;
   height: auto;
+}
+button {
+  background-color: inherit;
+  border: 3px #586ba4;
+  color: inherit;
+  padding: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: inherit;
 }
 .container {
   max-width: 800px;
@@ -4586,7 +4585,7 @@ img {
 .fa-facebook-square,
 .fa-github-square,
 .fa-twitter-square {
-  font-size: 7em !important;
+  font-size: 5em !important;
 }
 /**
  * ----------------------------------------
@@ -5105,14 +5104,17 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .nav {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-end;
   transition: ease 0.8s;
+  background-color: #083d77;
+  color: #f2f5ea;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
-  align-items: baseline;
-  background-color: #083d77;
-  justify-content: flex-end;
-  color: #f2f5ea;
   box-shadow: 3px 2px 3px #4c4848;
+}
+.nav .logo {
+  align-self: flex-start;
 }
 .nav .button {
   background-color: inherit;
@@ -5215,4 +5217,13 @@ since IE8 won't execute CSS that contains a CSS3 selector.
   flex-flow: row wrap;
   align-content: flex-end;
   border: 2px solid red;
+}
+.button {
+  background-color: inherit;
+  border: 3px #586ba4;
+  color: inherit;
+  padding: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: inherit;
 }
