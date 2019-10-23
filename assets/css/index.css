@@ -5110,6 +5110,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
   width: 100%;
   align-items: baseline;
   background-color: #083d77;
+  justify-content: flex-end;
   color: #f2f5ea;
   box-shadow: 3px 2px 3px #4c4848;
 }

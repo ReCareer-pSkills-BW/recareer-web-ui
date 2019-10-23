@@ -2,7 +2,7 @@ self.addEventListener("install", function(event) {
     event.waitUntil(preLoad());
   });
   
-  var preLoad = function(){
+  let preLoad = function() {
     console.log("Installing web app");
     return caches.open("offline").then(function(cache) {
       console.log("caching index and important routes");
@@ -17,7 +17,7 @@ self.addEventListener("install", function(event) {
     event.waitUntil(addToCache(event.request));
   });
   
-  var checkResponse = function(request){
+  let checkResponse = function(request){
     return new Promise(function(fulfill, reject) {
       fetch(request).then(function(response){
         if(response.status !== 404) {
@@ -29,7 +29,7 @@ self.addEventListener("install", function(event) {
     });
   };
   
-  var addToCache = function(request){
+  let addToCache = function(request){
     return caches.open("offline").then(function (cache) {
       return fetch(request).then(function (response) {
         console.log(response.url + " was cached");
@@ -38,7 +38,7 @@ self.addEventListener("install", function(event) {
     });
   };
   
-  var returnFromCache = function(request){
+  let returnFromCache = function(request){
     return caches.open("offline").then(function (cache) {
       return cache.match(request).then(function (matching) {
        if(!matching || matching.status == 404) {
