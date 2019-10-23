@@ -38,7 +38,7 @@
             <a href="" class="icon" onclick="nav_burger()">
                 <i class="fa fa-bars"></i>
             </a>
-        </nav>
+        </nav> -->
     </header>
 
     <main class="profiles">
@@ -74,17 +74,31 @@
 
         <section id="contact">
             <h1>Drop Us A Line!</h1>
-            <form>
-                <label>What's your name?</label>
-                <input type="text" name="" value="">
-
-                <label>What's your email address?</label>
-                <input type="text" value="">
-
-                <label>Are you an employer?</label>
-                <input type="radio" value="Yes">Yes
-                <input type="radio" value="No">No
-            </form>
+            <form class="pure-form pure-form-stacked">
+                    <fieldset>
+                        <legend>A Stacked Form</legend>
+                
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="Email">
+                        <span class="pure-form-message">This is a required field.</span>
+                
+                        <label for="password">Password</label>
+                        <input id="password" type="password" placeholder="Password">
+                
+                        <label for="state">State</label>
+                        <select id="state">
+                            <option>AL</option>
+                            <option>CA</option>
+                            <option>IL</option>
+                        </select>
+                
+                        <label for="remember" class="pure-checkbox">
+                            <input id="remember" type="checkbox"> Remember me
+                        </label>
+                
+                        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+                    </fieldset>
+                </form>
         </section>
 
         <section class="social-links">
@@ -93,6 +107,8 @@
             <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
         </section>
         <p id="copyright">ReCareer ©, 1776 - 2019</p>
+
+        <p>This site was built with LESS, GithubPages, & tears 😢</p>
     </footer>
 </body>
 
