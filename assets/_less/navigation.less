@@ -1,4 +1,5 @@
 .nav {
+    flex-direction: row;
     transition: ease 0.8s;
     font-family: @family-primary;
     width: 100%;
@@ -8,12 +9,16 @@
     color: @text-color;
     box-shadow: 5px 5px 5px #1d1c1c;
 
+    @media @desktop {
+        flex-direction: row;
+    }
+
+    @media @phone {
+        flex-direction: column;
+    }
     .button {
         .buttonize();
         .shadowize();
-    }
-    @media @phone {
-        flex-direction: column;
     }
 
     a {
@@ -26,7 +31,6 @@
 		padding: 1em;
 
         &:hover {
-
 			.heartbeat();
         }
     }

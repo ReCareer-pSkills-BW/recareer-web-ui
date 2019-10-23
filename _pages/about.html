@@ -14,54 +14,87 @@
     <meta name="application-name" content="ReCareer">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#9ece9a">
+    <script defer src="/assets/js/libs/fa/all.js"></script>
+    <script src="assets/js/nav-burger.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Heebo|Montserrat|Slabo+13px" rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css?family=Heebo|Montserrat|Slabo+13px" rel="stylesheet" />
     <link href="/assets/css/index.css" rel="stylesheet">
 
 </head>
 
 <body>
-
-
     <header class="banner">
-        <nav class="nav">
+        <nav class="nav" id="nav">
             <a href="/index.html">
-                <img src="/assets/imgs/icons/icon.png" alt="logo" class="logo" />
+                <img src="assets/imgs/icons/icon.png" alt="logo" class="logo" />
             </a>
             <a href="#features">App Features</a>
             <a href="#skills">Feature Skills</a>
             <a href="/_pages/about.html">About Our Team</a>
             <a href="#contact">Contact</a>
             <a href="">
-                <button>Login</button>
+                <button class="button">Login</button>
+            </a>
+            <a href="" class="icon" onclick="nav_burger()">
+                <i class="fa fa-bars"></i>
             </a>
         </nav>
     </header>
 
     <main>
+        <section>
+            <img src="#" />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
+            blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
+            distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
+            vel quia ipsum mollitia? Laboriosam quos officia harum, unde voluptatum earum modi, atque aperiam hic omnis
+            eum!
+        </section>
 
+        <section>
+            <img src="#" />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
+            blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
+            distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
+            vel quia ipsum mollitia? Laboriosam quos officia harum, unde voluptatum earum modi, atque aperiam hic omnis
+            eum!
+        </section>
 
-        <footer>
+        <section>
+            <img src="#" />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
+            blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
+            distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
+            vel quia ipsum mollitia? Laboriosam quos officia harum, unde voluptatum earum modi, atque aperiam hic omnis
+            eum!
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <section id="contact">
+            <h1>Drop Us A Line!</h1>
             <form>
-                <fieldset>
-                    <legend>Connect with us! 🥨</legend>
-                    <label>What's your name?</label>
-                    <input type="text" name="firstname" value="Mickey"><br>
-                    Last name:<br>
-                    <input type="text" name="lastname" value="Mouse"><br><br>
-                    <input type="submit" value="Submit">
-                </fieldset>
+                <label>What's your name?</label>
+                <input type="text" name="" value="">
 
+                <label>What's your email address?</label>
+                <input type="text" value="">
 
-                <label>
-                    <input type="checkbox" value="terms">
-                    I agree to the <a href="/terms">terms and conditions</a>
-                </label>
-                </p>
-
+                <label>Are you an employer?</label>
+                <input type="radio" value="Yes">Yes
+                <input type="radio" value="No">No
             </form>
+        </section>
 
-        </footer>
-</body>
+        <section>
+            <p id="copyright">ReCareer ©, 1776 - 2019</p>
+            <article class="social-links">
+               <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://github.com"><i class="fab fa-github-square"></i></a>
+                <a href ="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+            </article>
+        </section>
+    </footer>
 
 </html>

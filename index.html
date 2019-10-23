@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ReCareer</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/imgs/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/icons/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="apple-mobile-web-app-title" content="ReCareer">
     <meta name="application-name" content="ReCareer">
@@ -17,14 +17,14 @@
     <script defer src="/assets/js/libs/fa/all.js"></script>
     <script src="assets/js/nav-burger.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Heebo|Montserrat|Slabo+13px" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Heebo|Montserrat|Slabo+13px" rel="stylesheet" />
     <link href="/assets/css/index.css" rel="stylesheet">
 
 </head>
 
 <body>
     <header class="banner">
-        <nav class="nav">
+        <nav class="nav" id="nav">
             <a href="/index.html">
                 <img src="assets/imgs/icons/icon.png" alt="logo" class="logo" />
             </a>
@@ -36,12 +36,12 @@
                 <button class="button">Login</button>
             </a>
             <a href="" class="icon" onclick="nav_burger()">
-                <i>🍔</i>
+                <i class="fa fa-bars"></i>
             </a>
         </nav>
     </header>
 
-    <main>
+    <main class="profiles">
         <section>
             <img src="#" />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
@@ -87,14 +87,12 @@
             </form>
         </section>
 
-        <section>
-            <p id="copyright">ReCareer ©, 1776 - 2019</p>
-            <article class="social-links">
-                <i class="fab fa-facebook-square"></i>
-                <a href="https://github.com"><i class="fab fa-github-square"></i></a>
-                <i class="fab fa-twitter-square"></i>
-            </article>
+        <section class="social-links">
+            <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://github.com"><i class="fab fa-github-square"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
         </section>
+        <p id="copyright">ReCareer ©, 1776 - 2019</p>
     </footer>
 </body>
 
