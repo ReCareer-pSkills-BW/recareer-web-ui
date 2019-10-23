@@ -4540,6 +4540,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 html,
 body {
@@ -5158,6 +5159,13 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .main {
   display: flex;
   padding: 8em;
+}
+.main img {
+  border-radius: 20px;
+}
+.main img:hover {
+  transition: ease 0.2;
+  box-shadow: blanchedalmond 2px 3px 2px;
 }
 .contact {
   display: flex;
