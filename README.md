@@ -29,10 +29,15 @@
 └───README.md
 ```
 
-## For fellow developer 🧙🏿‍ 
+## For our fellow developers 🧙🏿‍ 
 1. ```clone``` our repo to your favorite directory
 2. ```install``` a LESS compiler to your IDE to edit the styles 🎨, or just modify rendered ```.css``` file
 3. ```js/libs/fa & less/libs/fa``` contain FontAwesome libraries for social media links.
+### mixins
+> 
+#### animations.less 
+1. ```heartbeat()```
+2. 
 
 ## For passerbys 
 1. check out our _live_ site over [HERE! 🤓]("https://github.com/jffrydsr/recareer-ui")
