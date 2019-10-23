@@ -38,11 +38,24 @@
             <a href="" class="icon" onclick="nav_burger()">
                 <i class="fa fa-bars"></i>
             </a>
-        </nav> -->
+        </nav> 
+
+        <h1 class="title">ReCareer ©</h1>
+        <img id="banner_logo" src="/assets/imgs/ReCareer_hero.png" />
+        <h2 class="subtitle">another job board site for seconds chances 🙏🏿</h2>
     </header>
 
-    <main class="profiles">
-        <section>
+    <main class="main">
+        <section class="stack">
+            <img src="/assets/imgs/firefighter.jpg" />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
+            blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
+            distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
+            vel quia ipsum mollitia? Laboriosam quos officia harum, unde voluptatum earum modi, atque aperiam hic omnis
+            eum!
+        </section>
+
+        <section class="stack">
             <img src="#" />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
             blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
@@ -51,16 +64,7 @@
             eum!
         </section>
 
-        <section>
-            <img src="#" />
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
-            blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
-            distinctio. Sit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cum nisi sapiente quisquam
-            vel quia ipsum mollitia? Laboriosam quos officia harum, unde voluptatum earum modi, atque aperiam hic omnis
-            eum!
-        </section>
-
-        <section>
+        <section class="stack">
             <img src="#" />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis rem id quae vel, dolores, adipisci
             blanditiis dolor nobis fugit voluptatem maxime, vitae accusantium quis tempora perferendis nulla rerum
@@ -72,33 +76,25 @@
 
     <footer class="footer">
 
-        <section id="contact">
-            <h1>Drop Us A Line!</h1>
+        <section id="contact" class="contact">
+            <h1>Share us your thoughts 😀</h1>
             <form class="pure-form pure-form-stacked">
-                    <fieldset>
-                        <legend>A Stacked Form</legend>
-                
-                        <label for="email">Email</label>
-                        <input id="email" type="email" placeholder="Email">
-                        <span class="pure-form-message">This is a required field.</span>
-                
-                        <label for="password">Password</label>
-                        <input id="password" type="password" placeholder="Password">
-                
-                        <label for="state">State</label>
-                        <select id="state">
-                            <option>AL</option>
-                            <option>CA</option>
-                            <option>IL</option>
-                        </select>
-                
-                        <label for="remember" class="pure-checkbox">
-                            <input id="remember" type="checkbox"> Remember me
-                        </label>
-                
-                        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
-                    </fieldset>
-                </form>
+                <fieldset>
+                    <label for="email">What' your name?</label>
+                    <input id="email" type="text" placeholder="Micheal Phelps Jr.">
+                    <span class="pure-form-message">This is a required field.</span>
+
+                    <label for="password">What's your message?</label>
+                    <textarea id="message" type="text" placeholder="What's your favorite scary movie?"></textarea>
+                    <label for="state">Are you an employer</label>
+                    <select id="status">
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+
+                    <button class="pure-button pure-button-primary">Submit</button>
+                </fieldset>
+            </form>
         </section>
 
         <section class="social-links">
@@ -107,7 +103,7 @@
             <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
         </section>
         <p id="copyright">ReCareer ©, 1776 - 2019</p>
-
+        <hr>
         <p>This site was built with LESS, GithubPages, & tears 😢</p>
     </footer>
 </body>

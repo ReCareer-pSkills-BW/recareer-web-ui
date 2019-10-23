@@ -1,9 +1,45 @@
-.section {
+.main {
     display: flex;
-    padding: 5em;
+    padding: 8em;
+}
+
+.contact {
+    .center();
+    #message {
+        resize: none;
+        height: 200px;
+        width: 500px;
+    }
+    
 
 }
 
+.banner {
+    .center();
+    #banner_logo {
+        height: 300px;
+        width: 300px;
+        align-items: flex-end;
+    }
+}
+
+//section stacks 
+.stack {
+    font-size: 4rem;
+    img {
+        height: auto;
+        width: auto;
+    }
+}
+
+.title, .subtitle {
+    padding-top: 2em;
+    text-align: center;
+
+    &:hover {
+        .heartbeat();
+    }
+}
 .profiles {
     .gridize();
     border: 2px solid red;
