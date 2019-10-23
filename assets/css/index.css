@@ -27,10 +27,6 @@
   display: inline-block;
   font-size: inherit;
 }
-.heartbeat {
-  -webkit-animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
-  animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
-}
 .shadowize {
   -webkit-animation: shadow-drop-center 1.5s ease-in-out 4 both;
   animation: shadow-drop-center 1.5s ease-in-out 4 both;
@@ -4687,7 +4683,6 @@ img {
 }
 .nav {
   transition: ease 0.8s;
-  position: fixed;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   display: flex;
@@ -4736,7 +4731,8 @@ img {
   background: #586ba4;
   display: flex;
   flex-direction: column;
-  padding: 8em;
+  align-items: flex-end;
+  padding: 6em;
   height: 1000px;
   width: 100%;
 }
@@ -4754,7 +4750,6 @@ img {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
-  box-sizing: border-box;
   border: none;
   border-bottom: 2px solid black;
 }
