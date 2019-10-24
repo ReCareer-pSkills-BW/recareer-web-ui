@@ -1,0 +1,39 @@
+.nav {
+    .focus-in();
+    .row-right();
+    transition: ease 0.8s;
+
+    background-color: @primary;
+    color: @text-color;
+    font-family: @family-primary;
+    width: 100%;
+
+    box-shadow: 3px 2px 3px #4c4848;
+
+    .logo {
+        align-self: flex-start;
+    }
+
+    .button {
+        .buttonize();
+    }
+
+    a {
+        .buttonize();
+        transition: ease 0.3s;
+        text-align: center;
+        padding: inherit;
+        font-size: 2rem;
+        outline: none;
+        padding: 1em;
+
+        &:hover {
+            .pop-up();
+        }
+    }
+
+    &:hover {
+        transition: ease 0.8s;
+        box-shadow: 0.3em 0.78em black;
+    }
+}

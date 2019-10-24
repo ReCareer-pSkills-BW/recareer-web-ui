@@ -1,0 +1,129 @@
+/* [Build]: Hillary-Pinky-24
+   [Authorship]: @RyaneKayne @JffryDsr
+   [Date]: 24-10-2019
+*/
+   /* position mixins */
+.center() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-right() {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+.gridize() {
+    .center();
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+.buttonize {
+    background-color: inherit;
+    border: 3px @link;
+    color: inherit;
+    padding: inherit;
+    text-decoration: none;
+    display: inline-block;
+    font-size: inherit;
+}
+
+/* Animista Parametric Mixins*/
+.heartbeat() {
+    -webkit-animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
+    animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
+}
+
+.shadowize() {
+    -webkit-animation: shadow-drop-center 1.5s ease-in-out 4 both;
+    animation: shadow-drop-center 1.5s ease-in-out 4 both;
+}
+
+.focus-in() {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.pop-up() {
+    -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.tshoot() {
+    border: 2px solid black;
+}
+
+.fcenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-design (@background, @width: 200px, @primary: white) {
+    display: block;
+    background-color: @background;
+    cursor: pointer;
+    width: @width;
+    height: 60px;
+    font-size: 2rem;
+    border-radius: 30px;
+    color: @primary;
+
+    @media @tablet {
+        width: 16rem;
+    }
+
+    &:hover{
+        background-color: @primary;
+        color: @background;
+      }
+    }
+
+.cool-flip() {
+        /* entire container, keeps perspective */
+.flip-container {
+    perspective: 500px;
+    }
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+    }
+    
+    .flip-container, .front, .back {
+    width: 20rem;
+    height: 20rem;
+    }
+    
+    /* flip speed goes here */
+    .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    }
+    
+    /* hide back of pane during swap */
+    .front, .back {
+    backface-visibility: hidden;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    
+    /* front pane, placed above back */
+    .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    }
+    
+    /* back, initially hidden pane */
+    .back {
+    transform: rotateY(180deg);
+    }
+}
