@@ -38,14 +38,17 @@
 <span id="changelog">
 
 # Changelog
-```bash
-* [Kanye-Bubbles-6 | Font-Awesome added in dir ]
-* [Brad-Fork-5] | Pure.css.form added in dir ]
-* 
-* 
-* 
-* 
-```
+
+## Versioning 
+> in the style of Google's semantic _and tasty 🤤_ Android OS © versioning. 
+
+## Record
+```[name_of_celebrity] [color] [day_date]```
+* Current Build: **Kanye-Bubbles-9**
+* See [Changelog]("#changelog")
+* ```[Hilary-Black-24]: CURRENT BUILD ```
+* ```[Kanye-Green-23]: ```
+* ```[Brad-Pink-22]: ```
 
 # Minimum Viable Project 
 ## CSS Fundamentals
@@ -55,8 +58,8 @@
 * ✔ | **No horizontal scrollbars!**
 
 ## Code Conventions
-* | student's code is easy to read
-* | student's have used different less files for different portions of the site and they have imported them successful into the index.less file.
+* ✔ | student's code is easy to read
+* ✔ | student's have used different less files for different portions of the site and they have imported them successful into the index.less file.
 ```bash
    └───_less
          └─── components
@@ -73,8 +76,8 @@
          └─── animations
 ```
         
-* | student uses mixins and variables.
-* | student has used escaping for media queries: 
+* ✔ | student uses mixins and variables.
+* ✔ | student has used escaping for media queries: 
 
 > ```less
 > @phone: ~"(min-width: 500px)";
@@ -85,21 +88,12 @@
 * | student used reusable parametric mixins w/ parameter names that make sense
 * | student passes the tests for JavaScript V functions:
 
-## JavaScript V
+## JavaScript Pop Lesson! 🤓
+* **Hoisting**:
+>the quirk in JavaScript that allows v```var``` to be declared, _after_ it's initialized
 
-```javascript
-getCargoCapacityTotal()
-getFastestStarshipName()
-getLargestCargoStarshipModelName()
-getSlowestVehicleOrStarshipName()
-```
-
-## Versioning 
-> in the style of Google's semantic _and tasty 🤤_ Android OS © versioning. 
-
-```[name_of_celebrity] [color] [day_date]```
-* Current Build: **Kanye-Bubbles-9**
-* See [Changelog]("#changelog")
+* **.forEach**:
+>Array method that encapsulates the ```for``` loop operator as a class method
 
 # Authors
 ## The Illustrious ```RyanKayne``` | UI/UX Developer
@@ -111,7 +105,7 @@ getSlowestVehicleOrStarshipName()
 <img height="100px" width="100px" src="assets/imgs/team/Jeffrey.png"/>
 
 _A.K.A. The Grim REPL_
->just another humble negro 🖤
+>just another humble ```negro 🖤```
 
 ## The Admirable ```Connor``` | Front End Framework Developer
 <img height="100px" width="100px" src="assets/imgs/team/Connor.png"/>
@@ -126,12 +120,12 @@ _A.K.A. The Grim REPL_
 ## The Corrigible ```Gabriel``` | Backend Developer (Java)
 <img height="100px" width="100px" src="assets/imgs/team/Gabriel.png"/>
 
->
+>a bird 🐦 . . . no, a plane ✈ . . . no, the GOAT! 🐐
 
 ## The Infalible ```Brendan``` | Backend Developer (React)
 <img height="100px" width="100px" src="assets/imgs/team/Brendan.png"/>
 
-> 
+>. . . Batman! ~ 🦇🦇🦇🦇🦇
 
 # Technologies Used 
 * [Responsive Design - Breakpoint Pointers 😁]("https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/")
@@ -140,9 +134,10 @@ _A.K.A. The Grim REPL_
 * [FontAwesome - Icon Pack]("https://fontawesome.com")
 
 # Acknowledments
-* @TEAM
-* **Tucker Wray** [@twray]("https://github.com/") | _Team Lead @ The Lambda School λ_
+* **God**[@divine]("globalhost://here-now.onion")
+* **Tucker Wray** [@twray]("https://github.com/") | _Best && my-first Team Lead @ The Lambda School_
 * **Ana Travas** [@anatravas]("https://twitter.com/anatravas") | _creator of Animista ©_
+* **Life**[@life]("https://life.life") _. . . is hard 💎, coding is easy 👨🏿‍💻_
 
 # Licensing 
 **This project is under the MIT License ☔**<br>
