@@ -4851,8 +4851,10 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .pure-form select[disabled],
 .pure-form textarea[disabled] {
   cursor: not-allowed;
-  background-color: #eaeded;
-  color: #cad2d3;
+  background-color: #586ba4;
+  color: #586ba4;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 /*
 Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
@@ -5102,6 +5104,8 @@ since IE8 won't execute CSS that contains a CSS3 selector.
   }
 }
 .nav {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -5124,8 +5128,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
   text-decoration: none;
   display: inline-block;
   font-size: inherit;
-  -webkit-animation: shadow-drop-center 1.5s ease-in-out 4 both;
-  animation: shadow-drop-center 1.5s ease-in-out 4 both;
 }
 .nav a {
   background-color: inherit;
@@ -5142,8 +5144,8 @@ since IE8 won't execute CSS that contains a CSS3 selector.
   padding: 1em;
 }
 .nav a:hover {
-  -webkit-animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
-  animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
+  -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 .nav:hover {
   transition: ease 0.8s;

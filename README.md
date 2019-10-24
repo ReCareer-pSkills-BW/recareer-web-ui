@@ -102,16 +102,16 @@ getSlowestVehicleOrStarshipName()
 * See [Changelog]("#changelog")
 
 ## Authors
-### The Illustrious RyanKayne 🤑 | UI/UX Developer
+### The Illustrious ```RyanKayne``` 🤑 | UI/UX Developer
 > developer by day, and also developer at night. 
 
 ### The Enigmatic ```(Jffry (Dsr))``` 🤑 | UI/UX Developer
-_ A.K.A. The Grim REPL_
+_A.K.A. The Grim REPL_
 > a cup of spilled milk 
 
-### | Front End Framework Developer
+### Connor | Front End Framework Developer
 
-### | Backend Developer (Node)
+### Missa | Backend Developer (Node)
 
 ### | Backend Developer (Java)
 

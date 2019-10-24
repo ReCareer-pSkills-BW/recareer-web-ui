@@ -1,4 +1,5 @@
 .nav {
+    .focus-in();
     .row-right();
     transition: ease 0.8s;
 
@@ -6,15 +7,15 @@
     color: @text-color;
     font-family: @family-primary;
     width: 100%;
-    
+
     box-shadow: 3px 2px 3px #4c4848;
-.logo {
-    align-self: flex-start;
-}
+
+    .logo {
+        align-self: flex-start;
+    }
 
     .button {
         .buttonize();
-        .shadowize();
     }
 
     a {
@@ -27,7 +28,7 @@
         padding: 1em;
 
         &:hover {
-            .heartbeat();
+            .pop-up();
         }
     }
 
