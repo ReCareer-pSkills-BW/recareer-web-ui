@@ -3,7 +3,7 @@
 <img align="right" src="https://img.shields.io/badge/Made%20with-Tears%20%F0%9F%98%AD%20-blue?style=for-the-badge&logo=appveyor">
 <img align="left" src="https://img.shields.io/badge/Developed%20by-jffrydsr%20👩🏿‍💻-red?style=for-the-badge&logo=appveyor">
 <img src="https://img.shields.io/badge/Developed%20by-ryankayne%20%F0%9F%91%A8%F0%9F%8F%BF%E2%80%8D%F0%9F%92%BB-red?style=for-the-badge&logo=appveyor">
-<img align="right" src="https://img.shields.io/badge/Version-Kanye--Bubbles--1-black?style=for-the-badge&logo=appveyor">
+<img align="right" src="https://img.shields.io/badge/Version-Hillary--Black--24-black?style=for-the-badge&logo=appveyor">
 <img src="https://img.shields.io/badge/Build-Passing-green?style=for-the-badge&logo=appveyor">
 
 
@@ -48,13 +48,13 @@
 ```
 
 # Minimum Viable Project 
-### CSS Fundamentals
+## CSS Fundamentals
 * ✔ | CSS FlexBox, Boxmodel
 * ✔ | Responsive design at 500px, 800px, 1000px
 * ✔ | Responsive Units forr sizing ```rem, em, %```
 * ✔ | **No horizontal scrollbars!**
 
-### Code Conventions
+## Code Conventions
 * | student's code is easy to read
 * | student's have used different less files for different portions of the site and they have imported them successful into the index.less file.
 ```bash
@@ -85,7 +85,7 @@
 * | student used reusable parametric mixins w/ parameter names that make sense
 * | student passes the tests for JavaScript V functions:
 
-### JavaScript V
+## JavaScript V
 
 ```javascript
 getCargoCapacityTotal()
@@ -97,38 +97,53 @@ getSlowestVehicleOrStarshipName()
 ## Versioning 
 > in the style of Google's semantic _and tasty 🤤_ Android OS © versioning. 
 
-```[name_of_celebrity] [random_concrete_noun] [major_change_number]```
+```[name_of_celebrity] [color] [day_date]```
 * Current Build: **Kanye-Bubbles-9**
 * See [Changelog]("#changelog")
 
 # Authors
-## The Illustrious ```RyanKayne``` 🤑 | UI/UX Developer
-<img height="200px" width="200px" style="border-radius: 200px;" src="assets/imgs/team/Ryan.png"/>
-> developer by day, and also developer at night. 
+## The Illustrious ```RyanKayne``` | UI/UX Developer
+<img height="100px" width="100px" src="assets/imgs/team/Ryan.png"/>
 
-## The Enigmatic ```(Jffry (Dsr))``` 🤑 | UI/UX Developer
+>developer by day 🌞, and also developer at night 🌃. 
+
+## The Enigmatic ```(Jffry (Dsr))``` | UI/UX Developer 
+<img height="100px" width="100px" src="assets/imgs/team/Jeffrey.png"/>
+
 _A.K.A. The Grim REPL_
-> a cup of spilled milk 
+>just another humble negro 🖤
 
-## Connor | Front End Framework Developer
+## The Admirable ```Connor``` | Front End Framework Developer
+<img height="100px" width="100px" src="assets/imgs/team/Connor.png"/>
 
+>People's Choice © Best Eyebrows for Feb 29th, 2016
 
-## The Fabulous ```Missa``` | Backend Developer (Node)
-<img src="assets/imgs/team/Melissa.png"/>
+## The Fabulous ```Melissa``` | Backend Developer (Node)
+<img height="100px" width="100px" src="assets/imgs/team/Melissa.png"/>
  
-## | Backend Developer (Java)
+>Mankind's Last Good Hope against the Leader of the Dark Arts
 
-## Technologies Used 
+## The Corrigible ```Gabriel``` | Backend Developer (Java)
+<img height="100px" width="100px" src="assets/imgs/team/Gabriel.png"/>
+
+>
+
+## The Infalible ```Brendan``` | Backend Developer (React)
+<img height="100px" width="100px" src="assets/imgs/team/Brendan.png"/>
+
+> 
+
+# Technologies Used 
 * [Responsive Design - Breakpoint Pointers 😁]("https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/")
 * [Animation Keyframe - Animista]("https://animista.com")
 * [LESS - Preprocessor]("https://less.com")
 * [FontAwesome - Icon Pack]("https://fontawesome.com")
 
-## Acknowledments
+# Acknowledments
 * @TEAM
 * **Tucker Wray** [@twray]("https://github.com/") | _Team Lead @ The Lambda School λ_
 * **Ana Travas** [@anatravas]("https://twitter.com/anatravas") | _creator of Animista ©_
 
-## Licensing 
+# Licensing 
 **This project is under the MIT License ☔**<br>
 © ReCareers-pSkills, 2019
