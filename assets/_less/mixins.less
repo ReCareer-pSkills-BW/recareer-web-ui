@@ -1,4 +1,8 @@
-/* position mixins */
+/* [Build]: Hillary-Pinky-24
+   [Authorship]: @RyaneKayne @JffryDsr
+   [Date]: 24-10-2019
+*/
+   /* position mixins */
 .center() {
     display: flex;
     flex-direction: column;
@@ -29,8 +33,6 @@
     font-size: inherit;
 }
 
-
-
 /* Animista Parametric Mixins*/
 .heartbeat() {
     -webkit-animation: heartbeat 1.3s ease-in-out infinite alternate-reverse both;
@@ -50,4 +52,78 @@
 .pop-up() {
     -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.tshoot() {
+    border: 2px solid black;
+}
+
+.fcenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-design (@background, @width: 200px, @primary: white) {
+    display: block;
+    background-color: @background;
+    cursor: pointer;
+    width: @width;
+    height: 60px;
+    font-size: 2rem;
+    border-radius: 30px;
+    color: @primary;
+
+    @media @tablet {
+        width: 16rem;
+    }
+
+    &:hover{
+        background-color: @primary;
+        color: @background;
+      }
+    }
+
+.cool-flip() {
+        /* entire container, keeps perspective */
+.flip-container {
+    perspective: 500px;
+    }
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+    }
+    
+    .flip-container, .front, .back {
+    width: 20rem;
+    height: 20rem;
+    }
+    
+    /* flip speed goes here */
+    .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    }
+    
+    /* hide back of pane during swap */
+    .front, .back {
+    backface-visibility: hidden;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    
+    /* front pane, placed above back */
+    .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    }
+    
+    /* back, initially hidden pane */
+    .back {
+    transform: rotateY(180deg);
+    }
 }

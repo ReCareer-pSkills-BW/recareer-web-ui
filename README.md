@@ -101,19 +101,22 @@ getSlowestVehicleOrStarshipName()
 * Current Build: **Kanye-Bubbles-9**
 * See [Changelog]("#changelog")
 
-## Authors
-### The Illustrious ```RyanKayne``` 🤑 | UI/UX Developer
+# Authors
+## The Illustrious ```RyanKayne``` 🤑 | UI/UX Developer
+<img height="200px" width="200px" style="border-radius: 200px;" src="assets/imgs/team/Ryan.png"/>
 > developer by day, and also developer at night. 
 
-### The Enigmatic ```(Jffry (Dsr))``` 🤑 | UI/UX Developer
+## The Enigmatic ```(Jffry (Dsr))``` 🤑 | UI/UX Developer
 _A.K.A. The Grim REPL_
 > a cup of spilled milk 
 
-### Connor | Front End Framework Developer
+## Connor | Front End Framework Developer
 
-### Missa | Backend Developer (Node)
 
-### | Backend Developer (Java)
+## The Fabulous ```Missa``` | Backend Developer (Node)
+<img src="assets/imgs/team/Melissa.png"/>
+ 
+## | Backend Developer (Java)
 
 ## Technologies Used 
 * [Responsive Design - Breakpoint Pointers 😁]("https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/")
